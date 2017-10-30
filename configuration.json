@@ -1,0 +1,18 @@
+{
+  "env_name": "PongNoFrameskip-v4",
+  "summary_every": 1000,
+  "learning_rate": 0.0001,
+  "epsilon": 0.1,
+  "discount": 0.99,
+  "target_update_rate": 1.0,
+  "target_update_frequency": 1000,
+  "buffer_size": 10000,
+  "process_after": 10000,
+  "sample_size": 32,
+  "num_itr": 20000,
+  "mini_batch_size": 4,
+  "max_step": 8000,
+  "huber_loss_threshold": 1.0,
+  "use_double_dqn": 1,
+  "use_dueling": 1
+}
